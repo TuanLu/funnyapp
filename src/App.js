@@ -4,7 +4,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-			<h1 style={{color: 'red'}}>Test Deploy - Sass</h1>
+      <h1 style={{color: 'red'}}>Test Deploy - Sass</h1>
     </div>
   );
 }
