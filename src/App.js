@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-			<h1 style={{color: 'red'}}>Test Deploy</h1>
-			<p>New Text</p>
+			<h1 style={{color: 'red'}}>Test Deploy - Sass</h1>
     </div>
   );
 }
