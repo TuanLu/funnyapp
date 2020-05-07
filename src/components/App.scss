@@ -1,0 +1,51 @@
+@import '../sass/variables';
+.heading-title {
+  color: $black;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: $blue-dark;
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+  &__logo {
+    width: 100px;
+  }
+}
+.main {
+  width: 100%;
+  display: flex;
+  margin: 5px 0;
+  &__sidebar {
+    width: 30%;
+    background: $blue-dark;
+    color: $white;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+  }
+  &__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background: $orange;
+  }
+  &__thumb {
+    width: 100%;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: $black-light;
+  color: $blue;
+}
